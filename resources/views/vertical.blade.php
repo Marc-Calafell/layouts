@@ -10,19 +10,30 @@
 	<style>
 
 		body{
-			background: lightcyan;
+			background: #a8ebff;
 			color: #00acff;
-
 			/*margin: auto;*/
 			text-align: center;
+			display: flex;
+
 
 
 		}
 
+		#text{
+			border: 1px cadetblue solid;
+			max-width: 300px;
+
+
+		  }
 
 	</style>
 
+<div id="text">
 
+	asdasd
+
+</div>
 
 </head>
 
