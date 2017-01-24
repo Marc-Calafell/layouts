@@ -22,6 +22,8 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('parrilla', 'ParrillaController@index')->name('parrilla');
+
     Route::get('vertical2', 'Vertical2Controller@index')->name('vertical2');
 
     Route::get('vertical', 'VerticalController@index')->name('vertical');

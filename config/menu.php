@@ -29,6 +29,7 @@ Menu::macro('sidebar', function () {
 //        ->url('http://www.google.com', 'Google')
         ->add(Menu::adminlteSeparator('Acacha Adminlte'))
         #adminlte_menu
+        ->add(Link::toUrl('parrilla', 'Parrilla'))
         ->add(Link::toUrl('vertical2', 'Vertical2'))
         ->add(Link::toUrl('vertical', 'Vertical'))
         ->add(Menu::adminlteSeparator('SECONDARY MENU'))
