@@ -12,6 +12,7 @@
 		body{
 			background: lightcyan;
 			color: #00acff;
+
 			/*margin: auto;*/
 			text-align: center;
 
