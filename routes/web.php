@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['middleware' => 'auth'], function () {
+    //    Route::get('/link1', function ()    {
+//        // Uses Auth Middleware
+//    });
+
+    //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
+    #adminlte_routes
+    Route::get('vertical2', 'Vertical2Controller@index')->name('vertical2');
+
+    Route::get('vertical', 'VerticalController@index')->name('vertical');
+
+    Route::get('asd', 'AsdController@index')->name('asd');
+
+});
